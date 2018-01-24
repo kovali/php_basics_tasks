@@ -15,7 +15,7 @@ switch ($operator = $_POST['calcu']) {
     case '/':
         {
             if ($b == 0)
-                $result = 'На 0 не делится!';
+                $result = 'РќР° 0 РЅРµ РґРµР»РёС‚СЊСЃСЏ!';
             else
                 $result = $a / $b;
             break;
@@ -24,5 +24,7 @@ switch ($operator = $_POST['calcu']) {
         $result = $a % $b;
         break;
 }
-{echo $result;}
+{
+    echo $result;
+}
 
